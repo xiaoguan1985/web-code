@@ -1,0 +1,33 @@
+09:01:07,711 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+09:01:07,712 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+09:01:07,712 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/opt/power_projects/power-netty/power-netty-1.0-SNAPSHOT.jar!/logback.xml]
+09:01:07,726 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7bb11784 - URL [jar:file:/opt/power_projects/power-netty/power-netty-1.0-SNAPSHOT.jar!/logback.xml] is not of type file
+09:01:07,764 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+09:01:07,768 |-WARN in ch.qos.logback.core.joran.action.IncludeAction - Could not find resource corresponding to [org/springframework/boot/logging/logback/base.xml]
+09:01:07,769 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+09:01:07,773 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RollingFile]
+09:01:07,778 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+09:01:07,819 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@866191240 - No compression will be used
+09:01:07,820 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@866191240 - Will use the pattern ./logs/netty.prod.log.%d{yyyy-MM-dd} for the active file
+09:01:07,825 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern './logs/netty.prod.log.%d{yyyy-MM-dd}'.
+09:01:07,825 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+09:01:07,829 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Wed Apr 14 23:48:20 CST 2021
+09:01:07,831 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RollingFile] - Active log file name: ./logs/netty.prod.log
+09:01:07,831 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RollingFile] - File property is set to [./logs/netty.prod.log]
+09:01:07,832 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+09:01:07,833 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ERROE_RollingFile]
+09:01:07,833 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+09:01:07,836 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1879492184 - No compression will be used
+09:01:07,836 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1879492184 - Will use the pattern ./logs/netty-error.prod.log%d{yyyy-MM-dd} for the active file
+09:01:07,836 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern './logs/netty-error.prod.log%d{yyyy-MM-dd}'.
+09:01:07,836 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+09:01:07,837 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Sun Dec 13 12:08:26 CST 2020
+09:01:07,837 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ERROE_RollingFile] - Active log file name: ./logs/netty-error.prod.log
+09:01:07,837 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ERROE_RollingFile] - File property is set to [./logs/netty-error.prod.log]
+09:01:07,837 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+09:01:07,837 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RollingFile] to Logger[ROOT]
+09:01:07,838 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ERROE_RollingFile] to Logger[ROOT]
+09:01:07,838 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+09:01:07,838 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@34033bd0 - Registering current configuration as safe fallback point
+
+EchoServer started and listen on /0.0.0.0:7003
